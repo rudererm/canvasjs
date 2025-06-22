@@ -2,6 +2,7 @@
 import CanvasJSObject from './canvasjs';
 import TextBlock from './text_block';
 import {extend, numberFormat, getLineDashArray} from '../helpers/utils';
+import { getFontHeightInPixels } from '../helpers/utils';
 
 function Axis(chart, options, type, position) {
 
